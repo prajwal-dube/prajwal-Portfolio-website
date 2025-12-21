@@ -121,7 +121,18 @@ export default function App() {
             <div className="mb-6 inline-block">
               <div className="w-40 h-40 mx-auto bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center animate-pulse">
                 <div className="w-36 h-36 bg-gray-900 rounded-full flex items-center justify-center text-6xl font-bold">
-                  P
+                   <div className="mb-6 inline-block">
+                        <div className="w-40 h-40 mx-auto bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center animate-pulse">
+                            <div className="w-36 h-36 bg-gray-900 rounded-full overflow-hidden flex items-center justify-center">
+                                <img
+                                    src="/prajwal_photo_2025-12-21_06-04-33.jpg"
+                                    alt="Profile"
+                                    className="w-full h-full object-cover rounded-full"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
               </div>
             </div>
@@ -281,19 +292,30 @@ export default function App() {
           </p>
           
           <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((item, idx) => (
-              <div
-                key={item}
-                className={`aspect-video bg-gradient-to-br from-purple-900/20 to-pink-900/20 border border-purple-500/30 rounded-xl flex items-center justify-center hover:border-purple-500/50 transform hover:scale-105 transition-all duration-500 ${isVisible.dance ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                style={{ transitionDelay: `${idx * 100}ms` }}
-              >
-                <div className="text-center">
-                  <Music size={48} className="text-purple-400 mx-auto mb-3 animate-pulse" />
-                  <p className="text-gray-400 font-semibold">Coming Soon</p>
+                {[
+                    "/song1.mp4",
+                    "/song2.mp4",
+                    "/song3.mp4",
+                ].map((video, idx) => (
+                    <div
+                    key={idx}
+                    className={`aspect-video bg-gradient-to-br from-purple-900/20 to-pink-900/20 border border-purple-500/30 rounded-xl overflow-hidden hover:border-purple-500/50 transform hover:scale-105 transition-all duration-500 ${
+                        isVisible.dance ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                    }`}
+                    style={{ transitionDelay: `${idx * 100}ms` }}
+                    >
+                <video
+                    src={video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover"
+                />
                 </div>
-              </div>
-            ))}
-          </div>
+                ))}
+            </div>
+
         </div>
       </section>
 
@@ -322,13 +344,13 @@ export default function App() {
             Prajwal
           </div>
           <div className="flex justify-center gap-6 mb-6">
-            <a href="#" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
+            <a href="https://github.com/prajwal-dube" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
               <Github size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
+            <a href="https://www.linkedin.com/in/prajwal-dube-23997524b/" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
+            <a href="https://www.instagram.com/prajwal_dube02/" className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300">
               <Instagram size={24} />
             </a>
           </div>
