@@ -57,75 +57,46 @@ git clone https://github.com/prajwal-dube/prajwal-personal-brand.git
 cd prajwal-personal-brand
 
 🎨 Sections Overview
-Hero Section
 
-Animated profile avatar
-
-Gradient animated title
-
-Role badges (AI/ML Student, Tech Enthusiast, Dancer, Lifelong Learner)
-
-Call-to-action buttons with smooth scroll
-
-About Section
-
-Education details
-
-Technical interests
-
-Hobbies & interests
-
-Sports & fitness
-
-Personality traits
-
-Interactive Q&A
-
-Ask questions about Prajwal
-
-Keyword-based responses
-
-Topics: Education, Tech, Dance, Sports, Personality
-
-Dance & Creative Expression
-
-Video-ready layout
-
-Hover animations
-
-Prepared for future content
-
-Personal Brand Vision
-
-Long-term goals
-
-Philosophy on growth and discipline
-
-Blend of tech and creativity
-
-Footer
-
-Social media links
-
-Copyright notice
+- Hero Section
+- Animated profile avatar
+- Gradient animated title
+- Role badges (AI/ML Student, Tech Enthusiast, Dancer, Lifelong Learner)
+- Call-to-action buttons with smooth scroll
+- About Section
+- Education details
+- Technical interests
+- Hobbies & interests
+- Sports & fitness
+- Personality traits
+- Interactive Q&A
+- Ask questions about Prajwal
+- Keyword-based responses
+- Topics: Education, Tech, Dance, Sports, Personality
+- Dance & Creative Expression
+- Video-ready layout
+- Hover animations
+- Prepared for future content
+- Personal Brand Vision
+- Long-term goals
+- Philosophy on growth and discipline
+- Blend of tech and creativity
+- Footer
+- Social media links
+- Copyright notice
 
 
 🎯 Customization
 
-Edit src/App.jsx to:
+- Edit src/App.jsx to:
+- Update personal content
+- Modify Q&A responses
+- Change brand colors
+- Update social links
 
-Update personal content
-
-Modify Q&A responses
-
-Change brand colors
-
-Update social links
 
 📱 Responsive Design
 
-Mobile: < 768px
-
-Tablet: 768px – 1023px
-
-Desktop: ≥ 1024px
+- Mobile: < 768px
+- Tablet: 768px – 1023px
+- Desktop: ≥ 1024px
