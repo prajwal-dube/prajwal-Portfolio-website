@@ -1,6 +1,6 @@
-# Prajwal - Personal  Website
+# Prajwal - Portfolio  Website
 
-A modern, dark-themed personal 
+A modern, dark-themed Portfolio 
 website built with React, Tailwind CSS, and Vite. Features smooth animations, interactive Q&A, and a tech-forward aesthetic.
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
